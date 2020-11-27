@@ -1,2 +1,3 @@
 // ENTRY FILE
-console.log('Hello World')
+const hello = (text='World'): string => `Hello, ${text}!`
+console.log(hello())
