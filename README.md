@@ -14,7 +14,7 @@ This has a VERY basic boilerplate with a nice little package.json
 
 3. In a separate terminal, run the built file
 
-```npm run start```
+```npm start```
 
 There are also scripts to *clean* and *build* the project
 
