@@ -1,27 +1,27 @@
 {
-  "name": "login-boilerplate",
+  "name": "ts-boilerplate",
   "version": "1.0.0",
-  "description": "",
+  "description": "This has a VERY basic boilerplate",
   "private": true,
   "scripts": {
-    "start": "node index.js",
+    "start": "nodemon dist/main.js",
     "clean": "rm -rf ./dist",
     "build": "clean & tsc",
     "watch": "tsc -w",
-    "test": "echo meh",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint '*/**/*.{js,ts,tsx}' --fix"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ronbarrantes/login-boilerplate.git"
+    "url": "git+https://github.com/ronbarrantes/ts-boilerplate.git"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ronbarrantes/login-boilerplate/issues"
+    "url": "https://github.com/ronbarrantes/ts-boilerplate/issues"
   },
-  "homepage": "https://github.com/ronbarrantes/login-boilerplate#readme",
+  "homepage": "https://github.com/ronbarrantes/ts-boilerplate#readme",
   "dependencies": {},
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.8.2",

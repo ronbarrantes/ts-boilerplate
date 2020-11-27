@@ -1,6 +1,6 @@
 # TypeScript Boilerplate
 
-This has a VERY basic boilerplate with a nice little package.json ready to run
+This has a VERY basic boilerplate with a nice little package.json
 
 ## How to run
 
@@ -15,6 +15,8 @@ This has a VERY basic boilerplate with a nice little package.json ready to run
 3. In a separate terminal, run the built file
 
 ```npm run start```
+
+There are also scripts to *clean* and *build* the project
 
 ## Notes
 
